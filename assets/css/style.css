@@ -61,8 +61,8 @@ body {
 	clear: both;
 }
 .centered {text-align: center}
-.mt {margin-top: 50px;}
-.mb {margin-bottom: 50px;}
+.mt {margin-top: 10px;}
+.mb {margin-bottom: 10px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
 .ptb {padding-top: 80px; padding-bottom: 80px;}
@@ -125,9 +125,9 @@ input {
 	border-radius: 25px;
 	line-height: 20px;
 	padding: 15px 30px 16px;
-	border: 1px solid #fff;
+	border: none;
 	margin-bottom: 10px;
-	background-color: #fff;
+	background-color: #000;
 	opacity: 0.9;
 	-webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
@@ -138,20 +138,47 @@ input:hover {
 	border-radius: 25px;
 	line-height: 20px;
 	padding: 15px 30px 16px;
-	border: 1px solid #fff;
+	border: none;
 	margin-bottom: 10px;
-	background-color: #efefef;
+	background-color: #ea4c89;
 	opacity: 0.9;
 	-webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
 }
+
 .email {
 	background: #fff;
-	color: white;
+	color: black;
 	width: 80%;
-
+	font-size: 16px;
+	min-height: 40px;
+	border-radius: 25px;
+	line-height: 20px;
+	padding: 15px 30px 16px;
+	border: 0px solid #000;
+	margin-bottom: 10px;
+	opacity: 0.9;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
 }
-
+.email:hover {
+	background: #fff;
+	color: black;
+	width: 80%;
+	font-size: 16px;
+	min-height: 40px;
+	border-radius: 25px;
+	line-height: 20px;
+	padding: 15px 30px 16px;
+	border: 0px solid #000;
+	margin-bottom: 10px;
+	opacity: 0.9;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.email:focus {
+	outline: none;
+}
 /* HEADER SECTION */
 #h {
 	background: url(../img/header.jpg) no-repeat center top;
@@ -159,7 +186,7 @@ input:hover {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 750px;
 	width: 100%;
 	color: white;
 
@@ -317,8 +344,8 @@ ul {
 
 /* FOOTER */
 #f {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background: #2f2f2f;
 	color: white;
 }
