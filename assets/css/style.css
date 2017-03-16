@@ -132,7 +132,7 @@ input {
 	padding: 15px 30px 16px;
 	border: none;
 	margin-bottom: 10px;
-	background-color: #000;
+	background-color: #ea4c89;
 	opacity: 0.9;
 	-webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
@@ -145,7 +145,7 @@ input:hover {
 	padding: 15px 30px 16px;
 	border: none;
 	margin-bottom: 10px;
-	background-color: #ea4c89;
+	background-color: #bb3d6e;
 	opacity: 0.9;
 	-webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
@@ -372,5 +372,5 @@ ul {
 }
 
 #f a:hover {
-	color: #03C9A9;
+	color: #ea4c89;
 }
